@@ -6,6 +6,7 @@ using Sistema.App.Dominio;
 
 namespace Sistema.App.Persistencia
 {
+    ///Repositorio completo///
     public class RepositorioDirectorTecnico : IRepositorioDirectorTecnico
     {
         /// <summary>
