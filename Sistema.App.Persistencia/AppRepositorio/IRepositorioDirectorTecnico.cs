@@ -4,6 +4,7 @@ using Sistema.App.Dominio;
 
 namespace Sistema.App.Persistencia
 {
+    ///Interface completa///
     public interface IRepositorioDirectorTecnico
     {
         IEnumerable<DirectorTecnico> GetAllDirectorTecnico();
