@@ -10,6 +10,8 @@ namespace Sistema.App.Consola
     class Program
     {
         private static IRepositorioDirectorTecnico _repoDirectorTecnico = new RepositorioDirectorTecnico(new Persistencia.AppContext());
+        
+        /// CRUD director tecnico ///
         private static void AgregarDirectorTecnico()
         {
             var Dt = new DirectorTecnico
@@ -54,13 +56,15 @@ namespace Sistema.App.Consola
             Console.WriteLine("Director tecnico actualizado:");
             Console.WriteLine(directorTecnico.Nombre + " " + directorTecnico.Apellido);
         }
+        
+        /// CRUD director tecnico ///
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             //AgregarDirectorTecnico();
             //BuscarDirectorTecnico(2);
             //EliminarDirectorTecnico(1);
-            ActualizarDirectorTecnico();
+            //ActualizarDirectorTecnico();
 
         }
 
