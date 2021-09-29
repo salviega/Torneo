@@ -1,0 +1,12 @@
+C:\Torneo\Sistema.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.csproj.AssemblyReference.cache
+C:\Torneo\Sistema.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Torneo\Sistema.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.AssemblyInfoInputs.cache
+C:\Torneo\Sistema.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.AssemblyInfo.cs
+C:\Torneo\Sistema.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Torneo\Sistema.App\Sistema.App.Dominio\bin\Debug\net5.0\Sistema.App.Dominio.deps.json
+C:\Torneo\Sistema.App\Sistema.App.Dominio\bin\Debug\net5.0\Sistema.App.Dominio.dll
+C:\Torneo\Sistema.App\Sistema.App.Dominio\bin\Debug\net5.0\ref\Sistema.App.Dominio.dll
+C:\Torneo\Sistema.App\Sistema.App.Dominio\bin\Debug\net5.0\Sistema.App.Dominio.pdb
+C:\Torneo\Sistema.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.dll
+C:\Torneo\Sistema.App\Sistema.App.Dominio\obj\Debug\net5.0\ref\Sistema.App.Dominio.dll
+C:\Torneo\Sistema.App\Sistema.App.Dominio\obj\Debug\net5.0\Sistema.App.Dominio.pdb
