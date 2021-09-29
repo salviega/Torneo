@@ -11,7 +11,7 @@ namespace Sistema.App.Consola
     {
         private static IRepositorioDirectorTecnico _repoDirectorTecnico = new RepositorioDirectorTecnico(new Persistencia.AppContext());
         
-        /// CRUD director tecnico ///
+        /// CRUD director tecnico falta buscar todos los directores tecnicos///
         private static void AgregarDirectorTecnico()
         {
             var Dt = new DirectorTecnico
