@@ -5,6 +5,7 @@ namespace Sistema.App.Persistencia
 {
     public class AppContext : DbContext{
 
+        ///Cambio de nombre de atributos ///
         public DbSet<Arbitro> Arbitros {get;set;}  
         public DbSet<DesempenoEquipo> Desempenos {get;set;}  
         public DbSet<DirectorTecnico> DirectoresTecnicos {get;set;}  
