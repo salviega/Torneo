@@ -11,6 +11,7 @@ namespace Sistema.App.Consola
     {
         private static IRepositorioDirectorTecnico _repoDirectorTecnico = new RepositorioDirectorTecnico(new Persistencia.AppContext());
         private static IRepositorioFutbolista _repoFutbolista = new RepositorioFutbolista(new Persistencia.AppContext());
+        private static IRepositorioTorneo _repoTorneo = new RepositorioTorneo(new Persistencia.AppContext());
         /// CRUD director tecnico ///
 
         private static void MostrarDirectoresTecnicos()
@@ -67,7 +68,7 @@ namespace Sistema.App.Consola
         
         /// CRUD director tecnico ///
 
-        /// CRUD director Futbolista ///
+        /// CRUD Futbolista ///
 
         private static void MostrarFutbolistas()
         {
@@ -132,9 +133,35 @@ namespace Sistema.App.Consola
         }
         
         /// CRUD Futbolista ///
+
+        /// CRUD Torneo (toca hacer unos cambios es mas COMPLEJO) ///
+
+        private static void AgregarTorneo()
+        {
+            var torneo = new Torneo
+            {
+            };
+            _repoTorneo.AddTorneo(torneo);
+        }
+        private static void BuscarTorneo(int idTorneo)
+        {
+            var torneo = _repoTorneo.GetTorneo(idTorneo);
+            Console.WriteLine("Torneo encontrado");
+        }
+        private static void EliminarTorneo(int idTorneo)
+        {
+            _repoTorneo.DeleteTorneo(idTorneo);
+        }
+        private static void ActualizarTorneo()
+        {
+
+        }
+        
+        /// CRUD Torneo ///
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            
             //AgregarDirectorTecnico();
             //BuscarDirectorTecnico(2);
             //EliminarDirectorTecnico(1);
@@ -146,6 +173,11 @@ namespace Sistema.App.Consola
             //EliminarFutbolista(9);
             //ActualizarFutbolista();
             //MostrarFutbolistas();
+
+            //AgregarToreno();
+            //BuscarTorneo(8);
+            //EliminarTorneo(9);
+            //ActualizarTorneo();
 
         }
     }
