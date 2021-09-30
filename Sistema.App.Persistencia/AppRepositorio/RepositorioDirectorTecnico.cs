@@ -10,7 +10,7 @@ namespace Sistema.App.Persistencia
     public class RepositorioDirectorTecnico : IRepositorioDirectorTecnico
     {
         /// <summary>
-        /// Referencia al contexto Paciente
+        /// Referencia al contexto Director Tecnico
         /// </summary>
 
         private readonly AppContext _appContext;
