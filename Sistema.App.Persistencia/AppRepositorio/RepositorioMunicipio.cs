@@ -2,41 +2,40 @@ using System.Collections.Generic;
 using System.Linq;
 using Sistema.App.Dominio;
 
-namespace Sistema.App.Persistencia 
-{
 
-public class RepositorioMunicipio : IRepositorioMunicipio
+namespace Sistema.App.Persistencia
+{
+    public class RepositorioMunicipio : IRepositorioMunicipio
     {
 
         /// <summary>
-        /// Referencia al contexto Municipio
+        /// Referencia al contexto de Municipio
         /// </summary>
-
         private readonly AppContext _appContext;
-
         /// <summary>
-        /// Metodo constructor utiliza
+        /// Metodo Constructor Utiiza 
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// </summary>
         /// <param name="appContext"></param>//
-
         public RepositorioMunicipio(AppContext appContext)
         {
             _appContext = appContext;
         }
+
         
-        Municipio IRepositorioMunicipio.AddMunicipio(Municipio Municipio)
+        Municipio IRepositorioMunicipio.AddMunicipio(Municipio municipio)
         {
-            var MunicipioAdicionado = _appContext.Municipios.Add(Municipio);
+            var MunicipioAdicionado = _appContext.Municipios.Add(municipio);
             _appContext.SaveChanges();
             return MunicipioAdicionado.Entity;
         }
 
+
         void IRepositorioMunicipio.DeleteMunicipio(int idMunicipio)
         {
-            var MunicipioEncontrado = _appContext.Municipios.FirstOrDefault(p => p.Id == idMunicipio);
+            var MunicipioEncontrado = _appContext.Municipios.FirstOrDefault(m => m.Id == idMunicipio);
             if (MunicipioEncontrado == null)
-            return;
+                return;
             _appContext.Municipios.Remove(MunicipioEncontrado);
             _appContext.SaveChanges();
         }
@@ -48,34 +47,35 @@ public class RepositorioMunicipio : IRepositorioMunicipio
 
         Municipio IRepositorioMunicipio.GetMunicipio(int idMunicipio)
         {
-            return _appContext.Municipios.FirstOrDefault(p => p.Id == idMunicipio);
-        }
+            return _appContext.Municipios.FirstOrDefault(m => m.Id == idMunicipio);
+        }        
 
-        Municipio IRepositorioMunicipio.UpdateMunicipio(Municipio Municipio)
+        Municipio IRepositorioMunicipio.UpdateMunicipio(string nombre, Municipio municipio)
         {
-            var MunicipioEncontrado = _appContext.Municipios.FirstOrDefault(p => p.Id == Municipio.Id);
+            var MunicipioEncontrado = _appContext.Municipios.FirstOrDefault(m => m.Nombre == nombre);
             if (MunicipioEncontrado != null)
             {
-                MunicipioEncontrado.Nombre=Municipio.Nombre;
-                MunicipioEncontrado.Id=Municipio.Id;
-                //MunicipioEncontrado.Municipio=Municipio.Municipio;
-                //MunicipioEncontrado.Genero=Municipio.Genero;
-                //MunicipioEncontrado.Direccion=Municipio.Direccion;
-                //MunicipioEncontrado.Latitud=Municipio.Latitud;
-                //MunicipioEncontrado.Longitud=Municipio.Longitud;
-                //MunicipioEncontrado.Ciudad=Municipio.Ciudad;
-                //MunicipioEncontrado.FechaNacimiento=Municipio.FechaNacimiento;
-                //MunicipioEncontrado.Familiar=Municipio.Familiar;
-                //MunicipioEncontrado.Enfermera=Municipio.Enfermera;
-                //MunicipioEncontrado.Medico=Municipio.Medico;
-                //MunicipioEncontrado.Historia=Municipio.Historia;
+                MunicipioEncontrado.Nombre = municipio.Nombre;
+
 
                 _appContext.SaveChanges();
-    
+
             }
             return MunicipioEncontrado;
         }
 
-    }
 
+        /// Si es necesario se copia el codigo para agregar un dato de otra tabla
+
+
+
+
+
+
+
+
+
+
+    }
 }
+
