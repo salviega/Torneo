@@ -11,7 +11,17 @@ namespace Sistema.App.Consola
     {
         private static IRepositorioDirectorTecnico _repoDirectorTecnico = new RepositorioDirectorTecnico(new Persistencia.AppContext());
         
-        /// CRUD director tecnico falta buscar todos los directores tecnicos///
+        /// CRUD director tecnico ///
+
+        private static void MostrarDirectoresTecnicos()
+        {
+            var TodosDts = _repoDirectorTecnico.GetAllDirectorTecnico();
+            
+            foreach (DirectorTecnico directorTecnico in TodosDts)
+            {
+                Console.WriteLine(directorTecnico.Nombre + " " + directorTecnico.Apellido);
+            }
+        }
         private static void AgregarDirectorTecnico()
         {
             var Dt = new DirectorTecnico
@@ -65,6 +75,7 @@ namespace Sistema.App.Consola
             //BuscarDirectorTecnico(2);
             //EliminarDirectorTecnico(1);
             //ActualizarDirectorTecnico();
+            //MostrarDirectoresTecnicos();
 
         }
 
