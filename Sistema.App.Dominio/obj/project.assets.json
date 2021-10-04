@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Santiago\\.nuget\\packages\\": {}
+    "C:\\Users\\hecto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Torneo\\Sistema.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
       "projectName": "Sistema.App.Dominio",
-      "projectPath": "C:\\Torneo\\Sistema.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Santiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Torneo\\Sistema.App\\Sistema.App.Dominio\\obj\\",
+      "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\hecto\\.nuget\\packages\\",
+      "outputPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Santiago\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\hecto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

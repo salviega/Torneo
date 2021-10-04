@@ -5796,19 +5796,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Santiago\\.nuget\\packages\\": {}
+    "C:\\Users\\hecto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Torneo\\Sistema.App\\Sistema.App.Consola\\Sistema.App.Consola.csproj",
+      "projectUniqueName": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Consola\\Sistema.App.Consola.csproj",
       "projectName": "Sistema.App.Consola",
-      "projectPath": "C:\\Torneo\\Sistema.App\\Sistema.App.Consola\\Sistema.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\Santiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Torneo\\Sistema.App\\Sistema.App.Consola\\obj\\",
+      "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Consola\\Sistema.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\hecto\\.nuget\\packages\\",
+      "outputPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Santiago\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\hecto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5820,11 +5820,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Torneo\\Sistema.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj": {
-              "projectPath": "C:\\Torneo\\Sistema.App\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj"
+            "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj": {
+              "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Dominio\\Sistema.App.Dominio.csproj"
             },
-            "C:\\Torneo\\Sistema.App\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj": {
-              "projectPath": "C:\\Torneo\\Sistema.App\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj"
+            "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj": {
+              "projectPath": "C:\\Torneo\\Torneo descarga\\Torneo\\Sistema.App.Persistencia\\Sistema.App.Persistencia.csproj"
             }
           }
         }

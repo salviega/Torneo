@@ -65,7 +65,7 @@ namespace Sistema.App.Persistencia
         }
 
 
-        /// Si es necesario se copia el codigo para agregar un dato de otra tabla
+        
 
 
 

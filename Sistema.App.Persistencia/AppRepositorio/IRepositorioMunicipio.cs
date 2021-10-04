@@ -18,7 +18,7 @@ namespace Sistema.App.Persistencia
         Municipio GetMunicipio(int idMunicipio);
 
 
-        ///Ingresa el dato necesario de la otra tabla
+       
 
 
 
